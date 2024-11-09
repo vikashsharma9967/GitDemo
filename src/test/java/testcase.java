@@ -9,6 +9,6 @@ public class testcase {
     public void getRequest(){
         RestAssured.baseURI = "https://reqres.in/";
         RequestSpecification req= RestAssured.given();
-        Response res = req.get("users?page=
+//        Response res = req.get("users?page=
     }
 }
